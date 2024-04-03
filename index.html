@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1><img src="imagenes/logo.png"></h1>
+        </header>
+        
+        <main>
+            <section class="principal">
+
+                <textarea id="textoUsuario" class="texto-usuario" placeholder="Ingrese su texto aquí"></textarea>
+                <p id="Advertencia">⚠ Solo letras minúsculas y sin acentos</p>
+
+                <div class="botones">
+                    <button id="b1">Encriptar</button>
+                    <button id="b2">Desencriptar</button>
+                </div>
+            </section>
+
+            <section class="respuesta">
+                <div class="r">
+                    <img class="espia" src="imagenes/espia.png">
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <button class="botones" id="copiar" style="display: none;">Copiar</button>
+            </section>
+        
+
+
+            
+        </main>
+        
+        <footer>
+            <p class="copyright">&copy Copyright HinEncriptados - 2024</p>
+        </footer>
+        <script src="functions.js"></script>
+    </body>
+</html>
