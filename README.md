@@ -31,4 +31,4 @@ Este proyecto es parte de una tarea para las empresas Alura Latam y Oracle y fue
 
 ## Licencia
 
-Este proyecto está bajo la licencia MIT. Puedes ver el archivo `LICENSE` para más información.
+El código y la información almacenada en este repositorio es de modificación y distribución gratuita bajo Licencia Pública General de GNU (GPL) versión 3. Puede consultar los alcances de esta licencia y las otras licencias disponibles para software en: Lista de licencias con comentarios
