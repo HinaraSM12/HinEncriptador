@@ -158,10 +158,11 @@ footer p{
     .botones {
         flex-direction: column; 
         align-items: center; 
+        width: 100%;
     }
 
     .botones button {
-        width: 80%; 
+        width: 100%; 
         margin-bottom: 10px; 
     }
 
@@ -174,9 +175,39 @@ footer p{
     .respuesta {
         height: auto; 
         margin-top: 20px; 
+        width: 82%;
     }
 
     #copiar {
         width: 80%;
+        bottom: 10px;
     }
+    
+}
+
+/* Estilos para tablets */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    h1 img {
+        width: 15%;
+        max-width: 25%;
+    }
+
+    main {
+        flex-direction: column; /* Cambia la dirección de flex a columna */
+        align-items: center; /* Centra los elementos */
+        width: 90%;
+        max-width: 1024px;
+
+    }
+    .respuesta img{
+        width: 70%;
+    }
+
+    .principal,
+    .respuesta {
+        width: 90%;
+        order: 2; /* Cambia el orden de la respuesta para que aparezca debajo */
+        margin-top: 20px; /* Espacio entre la sección principal y la respuesta */
+    }
+
 }
